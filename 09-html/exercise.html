@@ -10,42 +10,48 @@
   have done what it says.
 -->
 
+
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- TODO: give the page the title:  My Campus Store -->
-    <title></title>
-
-    <!-- TODO: link the stylesheet. The file is styles.css, next to this one. -->
-  </head>
-
-  <body>
-    <!-- TODO: wrap this heading in a <header> element. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Campus Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
     <h1>My Campus Store</h1>
+  </header>
 
-    <!-- TODO: everything from here to the footer belongs inside a <main>. -->
+  <main>
+    <h2>Items</h2>
 
-    <!-- TODO: add an <h2> that says:  Items -->
+    <ul>
+     <li>
+  Notebook
+  <p><span class="price">50 EGP</span></p>
+</li>
+      <li>
+  Pen
+  <p><span class="price">15 EGP</span></p>
+</li>
+<li>
+  Backpack
+  <p><span class="price">200 EGP</span></p>
+</li>
+    </ul>
 
-    <!-- TODO: add a <ul> with exactly three <li> items, one per product.
-         The text of each does not matter — pick any three. -->
+    <a href="https://www.giu-uni.de/">GIU</a>
 
-    <!-- TODO: add a paragraph containing a <span class="price"> with a price
-         in it, for example:  A pen costs <span class="price">15 EGP</span>. -->
+    <img src="campus.jpg" alt="Campus">
+  </main>
 
-    <!-- TODO: add a link to https://www.giu-uni.de with the text:  GIU -->
+  <footer>
+    <p>My Campus Store</p>
+  </footer>
 
-    <!-- TODO: add an <img>. It needs a src (any filename) and an alt
-         describing the picture. -->
-
-    <p id="script-check">The script has not run.</p>
-
-    <!-- TODO: add a <footer> with a paragraph inside it. Any text. -->
-
-    <!-- TODO: link the script. The file is app.js, next to this one, and the
-         tag belongs at the very end of the body. -->
-  </body>
+  <script src="app.js"></script>
+</body>
 </html>
